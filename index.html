@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,65 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
 
+     
+     <ol> 
+    <div class="dropdown">
+
+
+      <div class="container text-center">
+        <div class="row">
+          <!-- The time for that row -->
+          <!-- Textarea where a user can type what they want to shceudle for that time -->
+          <!-- Save button to save the event -->
+          <div id="9" class="col-2 hour">9:00am</div>
+          <textarea class="col-8 description">
+          </textarea>
+          <button class="col-2 saveBtn"> Save
+           </button>
+        </div>
+        <div class="row">
+          <!-- The time for that row -->
+          <!-- Textarea where a user can type what they want to shceudle for that time -->
+          <!-- Save button to save the event -->
+          <div id="10" class="col-2 hour">10:00am</div>
+          <textarea class="col-8 description">
+          </textarea>
+          <button class="col-2 saveBtn"> Save
+           </button>
+        </div>
+        <div class="row">
+          <!-- The time for that row -->
+          <!-- Textarea where a user can type what they want to shceudle for that time -->
+          <!-- Save button to save the event -->
+          <div id="11" class="col-2 hour">11:00am</div>
+          <textarea class="col-8 description">
+          </textarea>
+          <button class="col-2 saveBtn"> Save
+           </button>
+        </div>
+        <div class="row">
+          <!-- The time for that row -->
+          <!-- Textarea where a user can type what they want to shceudle for that time -->
+          <!-- Save button to save the event -->
+          <div id="12" class="col-2 hour">12:00pm</div>
+          <textarea class="col-8 description">
+          </textarea>
+          <button class="col-2 saveBtn"> Save
+           </button>
+        </div>
+
+      </div>
+
+      
+      
+    
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Scheduler.js"></script>
+    <!-- Java Script is synchronous; so it reads everything from top-bottom 
+    for Moment JS before we downloaded it into the HTML -->
   </body>
 </html>

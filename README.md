@@ -13,14 +13,7 @@ I want to add important events to a daily planner.
 SO that I can manage my time effectively.
  </p>
 
-Summary 
-<ol>
-<li> Time management tools from a developer perspective are not of use to the user unless they can actually store data. </li>
-<li> </li>
-<li></li>
-<li></li>
-
-
+Summary
 
 
 

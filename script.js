@@ -35,7 +35,7 @@ function loop() {
         var hour = parseInt($(this).attr('id'));
 
         if (current > hour) {
-            $(this).addClass("past")
+            $(this).addClass('past')
         }
         else if (current === hour) {
             $(this).removeClass('past')

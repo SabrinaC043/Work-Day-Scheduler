@@ -34,4 +34,4 @@ Retain key details for the user by saving them in the description field so no ta
 
 
 
-<img src='./assets/WorkDay.jpeg' alt= 'image of WorkDay Schedule, it looks like a 9-5 calendar with hours separated into a column on the far left, row is input field in the center and your save buttons on the right in columns.'><img/>
+<img src='./assets/WorkDay.jpeg' alt= 'image of WorkDay Schedule, it looks like a 9-5 calendar with hours separated into a column on the far left, row is input field in the center and your save buttons on the right in columns.'></img>
